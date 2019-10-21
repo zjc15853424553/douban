@@ -1,0 +1,114 @@
+.header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 0.48rem;
+  padding: 0 0.18rem;
+  width: 3.39rem;
+  border-bottom: .01rem solid #f3f3f3;
+}
+.header span{
+  color: #42bd56;
+  font-size: 0.16rem;
+}
+.header form{
+  flex: 1;
+  width: 100%;
+  padding-left: 0.1rem;
+}
+.header form input{
+  box-sizing: border-box;
+  border: 0;
+  background-size: 0.173rem;
+  border-radius: .03rem;
+  width: 100%;
+  background: #f3f3f3;;
+  height: 0.32rem;
+  font-size: 0.14rem;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.25rem;
+  /*margin-top: 0.48rem;*/
+}
+ul li{
+  width: 33.33%;
+}
+ul li div{
+  position: relative;
+  float: left;
+  left: 50%;
+  top: 0;
+}
+ul li div a{
+  position: relative;
+  left: -50%;
+  top: 0;
+  display: block;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+ul li div a strong{
+  display: block;
+  font-weight: 400;
+  font-size: 0.24rem;
+  line-height: 0.28rem;
+}
+ul li div a span{
+  color: #999;
+}
+ul .left div a:nth-child(1) strong{
+  color: rgb(35, 132, 232);
+}
+ul .left div a:nth-child(2) strong{
+  color: rgb(230, 70, 126);
+}
+ul .left div a:nth-child(3) strong{
+color: rgb(159, 120, 96);
+}
+ul .left div a:nth-child(4) strong{
+  color: rgb(225, 100, 77);
+}
+ul .center div a:nth-child(1) strong{
+  color: rgb(122, 106, 219);
+}
+ul .center div a:nth-child(2) strong{
+  color: rgb(42, 184, 204);
+}
+ul .center div a:nth-child(3) strong{
+  color: rgb(87, 116, 197);
+}
+ul .center div a:nth-child(4) strong{
+  color: rgb(64, 207, 169);
+}
+ul .right div a:nth-child(1) strong{
+  color: rgb(159, 120, 96);
+}
+ul .right div a:nth-child(2) strong{
+  color: rgb(244, 143, 46);
+}
+ul .right div a:nth-child(3) strong{
+  color: rgb(89, 108, 221);
+}
+ul .right div a:nth-child(4) strong{
+  color: rgb(66, 189, 86);
+}
+.last{
+  width: 3.75rem;
+}
+.last div{
+  display: flex;
+  border-top: .01rem solid #f3f3f3;
+  padding: 0.13rem 0;
+  text-align: center;
+}
+.last div a{
+  flex: 1;
+  font-size: 0.15rem;
+  color: #42bd56;
+}

@@ -1,0 +1,239 @@
+.Movie{
+  width: 3.33rem;
+  overflow: hidden;
+  padding: 0 0.21rem;
+}
+.Movie h1{
+  margin: 0.24rem 0 0;
+  font: 0.2rem '微软雅黑';
+}
+.mainBox{
+  width: 3.33rem;
+  height: 1.68rem;
+  font: 0.12rem '微软雅黑';
+  margin: 0 0 0.36rem;
+}
+.mainBox .MovieLeft{
+  width: 2.12rem;
+  height: 1.52rem;
+  float: left;
+}
+.mainBox .MovieLeft div{
+  margin: 0.05rem 0 0;
+}
+.mainBox .MovieLeft p{
+  margin: 0.18rem 0 0.14rem;
+  font: 0.14rem '微软雅黑';
+  color: #494949;
+  padding: 0 0.28rem 0 0;
+}
+.mainBox .Movieright{
+  width: 1.2rem;
+  height: 1.67rem;
+  float: right;
+}
+.mainBox .Movieright img{
+  display: block;
+  width: 1.2rem;
+  height: 1.67rem;
+}
+.marking{
+  width: 3.33rem;
+  height: 0.38rem;
+  margin: 0.36rem 0 ;
+  font-size: 0.12rem;
+}
+.marking a{
+  display: inline-block;
+  width: 1.54rem;
+  height: 0.38rem;
+  border: 0.01rem solid #ffb712;
+  border-radius: .03rem;
+  font: 0.12rem/0.38rem '微软雅黑';
+  color: #ffb712;
+  text-align: center;
+  flex: 1;
+}
+.into{
+  width: 3.33rem;
+  overflow: hidden;
+}
+.into h2{
+  margin: 0 0 0.18rem;
+  font: 0.15rem '微软雅黑';
+  color: #aaa;
+}
+.into p{
+  margin: 0.15rem 0;
+  font: 0.15rem '微软雅黑';
+  color: #494949;
+}
+.genres{
+  width: 3.33rem;
+  height: 0.8rem;
+  margin: 0 0 0.36rem;
+}
+.genres h2{
+  height: 0.17rem;
+  margin: 0 0 0.18rem;
+  font-size: 0.15rem;
+}
+.genres  ul {
+  margin: 0;
+  padding: 0;
+}
+.genres  ul li{
+  display: inline-block;
+  margin: 0.1rem 0.1rem 0 0;
+  font-size: 0.15rem;
+}
+.genres ul li a{
+  display: block;
+  padding: 0 0.12rem;
+  line-height: 0.28rem;
+  font-size: 0.15rem;
+  border-radius: 0.28rem;
+  text-align: center;
+  color: #494949;
+  background: #f5f5f5;
+}
+.pic{
+  margin-bottom: 0.3rem;
+  width: 3.33rem;
+  height: 1.81rem;
+}
+.pic h2{
+  font-size: 0.15rem;
+  margin: 0 0 0.18rem;
+}
+.pic ul{
+  width: 353rem;
+  height: 1.46rem;
+  margin-right: -0.18rem;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.pic ul li{
+  height: 1.2rem;
+  overflow: hidden;
+  display: inline-block;
+}
+.pic ul li a img{
+  width: 1.8rem;
+}
+.comments{
+  width: 3.75rem;
+  /*padding: 0 0.21rem;*/
+  overflow: hidden;
+  margin-bottom: 0.3rem;
+}
+.comments h2{
+  padding: 0 0.18rem;
+  margin: 0 0 0.15rem;
+}
+.bigList{
+  width: 3.75rem;
+  overflow: hidden;
+  display: block;
+}
+.bigList .card{
+  position: relative;
+  padding: 0 0 0.2rem 0.6rem;
+  margin: 0.2rem 0.21rem;
+  width: 2.8rem;
+}
+.bigList .card .cardTop{
+  height: 0.5rem;
+  margin: 0 0 -0.6rem -0.5rem;
+}
+.bigList .card .cardTop a:nth-child(1) img{
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.1rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.bigList .card .cardTop a:nth-child(2) .carRight{
+  display: inline-block;
+}
+.bigList .card .cardTop a:nth-child(2) .carRight strong{
+  font-size: 0.17rem;
+  line-height: 0.1;
+  color: #494949;
+}
+.bigList .card .cardTop a:nth-child(2) .carRight div{
+  font-size: 0.14rem;
+  margin-top: .06rem;
+  line-height: 0.1;
+  color: #aaa;
+}
+.bigList .card p{
+  line-height: 0.22rem;
+  font-size: 0.15rem;
+  color: #494949;
+  margin: 0.55rem 0 0.15rem;
+}
+.cardBot span:nth-child(1){
+  margin-right: 0.2rem;
+  font-size: 0.14rem;
+  float: left;
+}
+.cardBot span:nth-child(1) img{
+  width: 0.2rem;
+  height: 0.2rem;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: -.04rem;
+  vertical-align: center;
+  margin-right: 0.05rem;
+}
+.cardBot span:nth-child(1) i{
+  font: 0.14rem/0.2rem '微软雅黑';
+}
+.cardBot span:nth-child(2){
+  float: right;
+}
+.comments .thep{
+  text-align: center;
+  display: block;
+  padding: 0.15rem 0;
+  font-size: 0.16rem;
+  line-height: 0.18rem;
+  color: #42bd56;
+}
+.question{
+  padding: 0 0.18rem;
+  width: 3.39rem;
+  overflow: hidden;
+}
+.question h2{
+  margin: 0 0 0.15rem;
+  font-size: 0.15rem;
+  color: #aaa;
+}
+.question  ul{
+  margin: 0;
+  padding: 0;
+}
+.question  ul li h3{
+  padding: 0;
+  line-height: 0.141;
+  font-size: 0.17rem;
+  font-weight: 500;
+  color: #494949;
+  margin: 0.17rem 0 ;
+}
+.question ul li p{
+  margin-top: .05rem;
+  font-size: 0.14rem;
+  color: #42bd56;
+}
+.question a{
+  text-align: center;
+  display: block;
+  padding: 0.15rem 0;
+  font-size: 0.16rem;
+  line-height: 0.18rem;
+  color: #42bd56;
+}
